@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DragonEgg : MonoBehaviour
 {
-    public static float bottomY = -30f;
+    public static float bottomY = -11f;
 
     void Start()
     {

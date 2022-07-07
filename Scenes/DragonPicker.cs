@@ -18,7 +18,7 @@ public class DragonPicker : MonoBehaviour
         {
             GameObject tBasketGo = Instantiate<GameObject>(energyShieldPrefab);
             tBasketGo.transform.position = new Vector3(0, energyShieldButtomY, 0);
-            tBasketGo.transform.localScale = new Vector3(1 * i, 1 * i, 1 * i);
+            tBasketGo.transform.localScale = new Vector3(2 * i, 2 * i, 2 * i);
 
             basketList.Add(tBasketGo);
         }
